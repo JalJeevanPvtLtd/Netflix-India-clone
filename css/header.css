@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+#background-div{
+    width: 1519px;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7) url("/images/netflix-background.jpg") no-repeat center center/cover;
+    background-blend-mode: darken;
+}
+#header-div{
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 1407px;
+    /* border: 1px solid red; */
+}
+
+#header-div .header-right-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#header-div .image-logo img{
+    height: 120px;
+    width: 220px;
+}
+
+#header-div .sign-in-btn button{
+    padding: 7px 17px 7px 17px;
+    background-color: #E50914;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#header-div .header-right-div .language-option #language{
+    margin-right:30px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    padding: 8px 22px 8px 22px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+#header-div .header-right-div .language-option #language option{
+    background-color: transparent;
+}
+
+#language option{
+ font-weight: bold !important;
+  color: #fff !important;
+  background: #bc0000 !important;
+  text-transform: uppercase;
+}
+
+
+/* description devision */
+.flex-description{
+    height: 80vh;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#description-div{
+    height: 360px;
+    width: 950px;
+    /* border: 2px solid #ffffff; */
+    text-align: center;
+}
+
+#description-div h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 0px 75px;
+    color: #ffffff;
+}
+
+#description-div h3{
+    font-size: 26px;
+    margin: 16px 75px;
+    color: #ffffff;
+}
+
+#description-div h5{
+    font-size: 20px;
+    margin: 0px 118px;
+    color: #ffffff;
+    margin-top: 30px;
+
+}
+
+#description-div input{
+    height: 70px;
+    width: 500px;
+    font-size: 26px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #8C8C8C;
+    padding: 10px;
+}
+
+#description-div button{
+    height: 69px;
+    width: 250px;
+    border: none;
+    background-color: #E50914;
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#description-div button:hover{
+    background-color: #bc0000;
+}
+
+#description-div .email-div{
+    margin-top: 30px;
+}
+
+::placeholder{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+    
