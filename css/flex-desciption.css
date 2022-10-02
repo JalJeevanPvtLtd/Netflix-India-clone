@@ -1,0 +1,19 @@
+.flex-description {
+    margin: auto;
+}
+
+.get-started-btn {
+    border: none;
+    height: 90px;
+}
+
+.email-div {
+    display: flex;
+    justify-content: center;
+}
+.flex-description h5 {
+    font-weight: 400;
+}
+.flex-description h1 {
+    font-weight: 700;
+}
