@@ -52,9 +52,10 @@ body{
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
-    border: 1px solid #AAAAAA;
-    padding: 8px 22px 8px 22px;
-    background-color: transparent;
+    border: 2px solid #e3dddd;
+    padding: 8px 10px 8px 2px;
+    background-color:rgba(5, 5, 5, 0.7);
+    border-radius: 3px;
     outline: none;
     cursor: pointer;
 }
@@ -66,8 +67,7 @@ body{
 #language option{
  font-weight: bold !important;
   color: #fff !important;
-  background: #bc0000 !important;
-  text-transform: uppercase;
+  background: #706767 !important;
 }
 
 
